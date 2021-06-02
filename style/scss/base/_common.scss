@@ -1,0 +1,215 @@
+﻿
+.dropdown-content {
+    display: none;
+    .menu-item {
+        width: 150px;
+        margin: 0 auto;
+        padding: 10px 20px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #1F1F1F;
+        }
+
+        .menu-link {  
+            text-align: center;
+            font: 400 14px/1 $primaryFonts;
+            text-transform: uppercase;
+            color: $secondColor
+        }
+    }
+    .menu-item-box {           
+        width: 150px;
+        height: 22px;
+        text-align: center;
+
+        img {
+            height: 100%;
+        }
+    }
+}
+
+.container {
+    display: block;
+    margin: 0 auto;
+    max-width: 1110px;
+}
+
+.info {
+    font: normal 12px $primaryFonts;
+    color: #969696;
+}
+
+.main-title {
+    margin: 0 auto 25px;
+    text-align: center;
+    font: 700 28px/1 $thirdFonts;
+    text-transform: uppercase;
+    color: $secondColor;
+}
+
+.main-hr {
+    margin: 0 auto 25px;
+    width: 120px;
+    height: 1px;
+    color: $secondColor;
+}
+
+.product {
+    display: block;
+    margin: 40px auto;
+
+    .product-img-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 25px;
+        width: 260px;
+        height: 325px;
+        background-color: #191B1C;
+        cursor: pointer;
+
+        .product-img {
+            width: 100%;
+        }
+    }
+
+    .product-name {
+        margin-bottom: 10px;
+        font: 400 18px/1 $thirdFonts;
+        color: $secondColor;
+        cursor: pointer;
+    }
+
+    .product-price {
+        font: 700 16px/1 $thirdFonts;
+        color: $secondColor;
+        cursor: pointer;
+    }
+}
+
+.main-btn {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font: 400 14px/23px $primaryFonts;
+    text-transform: uppercase;
+    color: $secondColor;
+    background-color: transparent;
+    border: 1px solid $secondColor;
+    cursor: pointer;
+
+    &:hover {
+        background-color: rgba(255, 255, 255, 0.4);
+    }
+}
+
+.top-footer-title {
+    margin: 0 auto 15px;
+    text-align: center;
+    font: 400 24px/1 $thirdFonts;
+    text-transform: uppercase;
+    color: $secondColor;
+}
+
+.top-footer-description {
+    margin: 0 auto 15px;
+    font: 400 14px/21px $primaryFonts;
+    color: $secondColor;
+}
+
+@media (min-width: $sm) {
+    .container {
+        display: block;
+        margin: 0 auto;
+        max-width: 1110px;
+    }
+    
+    .info {
+        font: normal 12px $primaryFonts;
+        color: #969696;
+    }
+    
+    .main-title {
+        margin: 0 auto 50px;
+        text-align: center;
+        font: 700 36px/1 $thirdFonts;
+        text-transform: uppercase;
+        color: $secondColor;
+    }
+    
+    .main-hr {
+        margin: 0 auto 50px;
+        width: 120px;
+        height: 1px;
+        color: $secondColor;
+    }
+    
+    .product {
+        display: block;
+        margin-top: 40px;
+    
+        .product-img-box {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-bottom: 25px;
+            width: 260px;
+            height: 325px;
+            background-color: #191B1C;
+            cursor: pointer;
+    
+            .product-img {
+                width: 100%;
+            }
+        }
+    
+        .product-name {
+            margin-bottom: 10px;
+            font: 400 18px/1 $thirdFonts;
+            color: $secondColor;
+            cursor: pointer;
+        }
+    
+        .product-price {
+            font: 700 16px/1 $thirdFonts;
+            color: $secondColor;
+            cursor: pointer;
+        }
+    }
+    
+    .main-btn {
+        display: block;
+        margin: 0 auto;
+        padding: 12px 28px;
+        font: 400 18px/23px $primaryFonts;
+        text-transform: uppercase;
+        color: $secondColor;
+        background-color: transparent;
+        border: 1px solid $secondColor;
+        cursor: pointer;
+    
+        &:hover {
+            background-color: rgba(255, 255, 255, 0.4);
+        }
+    }
+    
+    .top-footer-title {
+        text-align: left;
+        margin-bottom: 40px;
+        font: 400 24px/1 $thirdFonts;
+        text-transform: uppercase;
+        color: $secondColor;
+    }
+    
+    .top-footer-description {
+        font: 400 14px/21px $primaryFonts;
+        color: $secondColor;
+    }
+}
+
+@media (min-width: $md) {
+    .dropdown-content {
+        display: none;
+    }
+}

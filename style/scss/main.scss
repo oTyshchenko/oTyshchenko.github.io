@@ -1,0 +1,21 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@font-face {
+    font-family: 'Post No Bills Jaffna';
+    src:url('../../fonts/Post-No-Bills-Jaffna-SemiBold.ttf.woff') format('woff'),
+        url('../../fonts/Post-No-Bills-Jaffna-SemiBold.ttf.svg') format('svg'),
+        url('../../fonts/Post-No-Bills-Jaffna-SemiBold.ttf.eot'),
+        url('/fonts/') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import "base/reset.scss";
+@import "base/variables.scss";
+@import "base/common.scss";
+@import "header.scss";
+@import "welcome.scss";
+@import "new.scss";
+@import "newGoods.scss";
+@import "brands.scss";
+@import "footer.scss";

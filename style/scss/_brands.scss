@@ -1,0 +1,25 @@
+.our-brand {
+    padding-top: 60px;
+    padding-bottom: 80px;
+    background-color: $thirdColor;
+
+    .our-brand-box {
+
+        .brand-box {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+            .brand-item {
+                margin: 0 10px;
+                width: 255px;
+                height: 94px;
+                cursor: pointer;
+
+                .brand-img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

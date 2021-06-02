@@ -1,0 +1,769 @@
+.main-header {
+    background-color: $firstColor;
+
+    .first-line {
+        display: none;
+        justify-content: space-between;
+        padding-top: 14px;
+        padding-bottom: 14px;
+
+        .first-line-left {
+            display: flex;
+
+            .phone-box {
+                margin-right: 16px;
+                width: 13px;
+                height: 13px;
+
+                .phone-img {
+                    width: 100%;
+                }
+            }
+
+            .phone {
+                padding-right: 10px;
+                width: 95px;
+                background-color: $firstColor;
+                border-right: 1px solid #969696;
+                cursor: pointer;
+            }
+
+            .time {
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+
+            .time2 {
+                padding-left: 10px;
+                border-left: 1px solid #969696;
+            }
+        }
+
+        .first-line-right {
+            display: flex;
+
+            .enter-box {
+                margin-right: 14px;
+                width: 14px;
+                height: 14px;
+
+                .enter-img {
+                    width: 100%;
+                }
+            }
+
+        }
+
+    }
+
+    .second-line-box {
+        padding: 0 20px;
+        background-color: $thirdColor;
+
+        .second-line {
+            display: flex;
+            justify-content: space-between;
+
+            .main-logo-box {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+    
+                .main-logo {
+                    font: 700 36px/1 $secondFonts;
+                    text-transform: uppercase;
+                    color: $secondColor;
+                }
+            }
+
+            .gamburger-box {
+                width: 40px;
+                height: 40px;
+
+                .gamburger {
+                    width: 100%;
+                    filter: invert(100%);
+                }
+            }
+
+            .menu {
+                display: none;
+                
+                .main-menu {
+                    display: flex;
+
+                    .menu-item {
+                        padding: 30px 20px;
+                        cursor: pointer;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+
+                        &:hover {
+                            background-color: #1F1F1F;
+                        }
+  
+                        .menu-link {  
+
+                            font: 400 14px/1 $primaryFonts;
+                            text-transform: uppercase;
+                            color: $secondColor
+                        }
+                    }
+
+                    .menu-item-box {
+                        
+                        width: 22px;
+                        height: 22px;
+
+                        img {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: $sm) {
+
+    .first-line {
+        display: none;
+        justify-content: space-between;
+        padding-top: 14px;
+        padding-bottom: 14px;
+
+        .first-line-left {
+            display: flex;
+
+            .phone-box {
+                margin-right: 16px;
+                width: 13px;
+                height: 13px;
+
+                .phone-img {
+                    width: 100%;
+                }
+            }
+
+            .phone {
+                padding-right: 10px;
+                width: 95px;
+                background-color: $firstColor;
+                border-right: 1px solid #969696;
+                cursor: pointer;
+            }
+
+            .time {
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+
+            .time2 {
+                padding-left: 10px;
+                border-left: 1px solid #969696;
+            }
+        }
+
+        .first-line-right {
+            display: flex;
+
+            .enter-box {
+                margin-right: 14px;
+                width: 14px;
+                height: 14px;
+
+                .enter-img {
+                    width: 100%;
+                }
+            }
+
+        }
+
+    }
+
+    .second-line-box {
+        padding: 20px;
+        background-color: $thirdColor;
+
+        .second-line {
+            padding: 20px 0;
+            display: flex;
+            justify-content: space-between;
+
+            .main-logo-box {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+    
+                .main-logo {
+                    font: 700 36px/1 $secondFonts;
+                    text-transform: uppercase;
+                    color: $secondColor;
+                }
+            }
+
+            .gamburger-box {
+                width: 40px;
+                height: 40px;
+
+                .gamburger {
+                    width: 100%;
+                }
+            }
+
+            .menu {
+                display: none;
+                
+                .main-menu {
+                    display: flex;
+
+                    .menu-item {
+                        padding: 30px 20px;
+                        cursor: pointer;
+
+                        &:hover {
+                            background-color: #1F1F1F;
+                        }
+  
+                        .menu-link {  
+                            font: 400 14px/1 $primaryFonts;
+                            text-transform: uppercase;
+                            color: $secondColor
+                        }
+                    }
+                }
+
+                .menu-baket {
+                    display: flex;
+
+                    .baket {
+                        margin: 0 40px;
+                    }
+
+                    .menu-baket-item {
+                        padding-top: 25px;
+                        width: 22px;
+                        height: 22px;
+                        cursor: pointer;
+
+                        .menu-baket-img {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width: $md) {
+    .main-header {
+        display: block;
+        background-color: $firstColor;
+    
+        .first-line {
+
+            display: flex;
+            justify-content: space-between;
+            padding: 14px 20px;
+    
+            .first-line-left {
+                display: flex;
+    
+                .phone-box {
+                    margin-right: 16px;
+                    width: 13px;
+                    height: 13px;
+    
+                    .phone-img {
+                        width: 100%;
+                    }
+                }
+    
+                .phone {
+                    padding-right: 10px;
+                    width: 95px;
+                    background-color: $firstColor;
+                    border-right: 1px solid #969696;
+                    cursor: pointer;
+                }
+    
+                .time {
+                    padding-left: 10px;
+                    padding-right: 10px;
+                }
+    
+                .time2 {
+                    padding-left: 10px;
+                    border-left: 1px solid #969696;
+                }
+            }
+    
+            .first-line-right {
+                display: flex;
+    
+                .enter-box {
+                    margin-right: 14px;
+                    width: 14px;
+                    height: 14px;
+    
+                    .enter-img {
+                        width: 100%;
+                    }
+                }
+    
+            }
+    
+        }
+    
+        .second-line-box {
+            background-color: $thirdColor;
+    
+            .second-line {
+                padding: 0;
+                display: flex;
+                justify-content: space-between;
+    
+                .main-logo-box {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+        
+                    .main-logo {
+                        font: 700 36px/1 $secondFonts;
+                        text-transform: uppercase;
+                        color: $secondColor;
+                    }
+                }
+
+                .gamburger-box {
+                    display: none;
+                    width: 40px;
+                    height: 40px;
+    
+                    .gamburger {
+                        width: 100%;
+                    }
+                }
+    
+                .menu {
+                    display: flex;
+                    
+                    .main-menu {
+                        display: flex;
+    
+                        .menu-item {
+                            padding: 30px 20px;
+                            cursor: pointer;
+    
+                            &:hover {
+                                background-color: #1F1F1F;
+                            }
+      
+                            .menu-link {  
+                                font: 400 14px/1 $primaryFonts;
+                                text-transform: uppercase;
+                                color: $secondColor
+                            }
+                        }
+                    }
+    
+                    .menu-baket {
+                        display: flex;
+    
+                        .baket {
+                            margin: 0 40px;
+                        }
+    
+                        .menu-baket-item {
+                            padding-top: 25px;
+                            width: 22px;
+                            height: 22px;
+                            cursor: pointer;
+    
+                            .menu-baket-img {
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: $lg) {
+    .main-header {
+        display: block;
+        background-color: $firstColor;
+    
+        .first-line {
+            display: flex;
+            justify-content: space-between;
+            padding-top: 14px;
+            padding-bottom: 14px;
+    
+            .first-line-left {
+                display: flex;
+    
+                .phone-box {
+                    margin-right: 16px;
+                    width: 13px;
+                    height: 13px;
+    
+                    .phone-img {
+                        width: 100%;
+                    }
+                }
+    
+                .phone {
+                    padding-right: 10px;
+                    width: 95px;
+                    background-color: $firstColor;
+                    border-right: 1px solid #969696;
+                    cursor: pointer;
+                }
+    
+                .time {
+                    padding-left: 10px;
+                    padding-right: 10px;
+                }
+    
+                .time2 {
+                    padding-left: 10px;
+                    border-left: 1px solid #969696;
+                }
+            }
+    
+            .first-line-right {
+                display: flex;
+    
+                .enter-box {
+                    margin-right: 14px;
+                    width: 14px;
+                    height: 14px;
+    
+                    .enter-img {
+                        width: 100%;
+                    }
+                }
+    
+            }
+    
+        }
+    
+        .second-line-box {
+            background-color: $thirdColor;
+    
+            .second-line {
+                display: flex;
+                justify-content: space-between;
+    
+                .main-logo-box {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+        
+                    .main-logo {
+                        font: 700 36px/1 $secondFonts;
+                        text-transform: uppercase;
+                        color: $secondColor;
+                    }
+                }
+    
+                .menu {
+                    display: flex;
+                    
+                    .main-menu {
+                        display: flex;
+    
+                        .menu-item {
+                            padding: 30px 20px;
+                            cursor: pointer;
+    
+                            &:hover {
+                                background-color: #1F1F1F;
+                            }
+      
+                            .menu-link {  
+                                font: 400 14px/1 $primaryFonts;
+                                text-transform: uppercase;
+                                color: $secondColor
+                            }
+                        }
+                    }
+    
+                    .menu-baket {
+                        display: flex;
+    
+                        .baket {
+                            margin: 0 40px;
+                        }
+    
+                        .menu-baket-item {
+                            padding-top: 25px;
+                            width: 22px;
+                            height: 22px;
+                            cursor: pointer;
+    
+                            .menu-baket-img {
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: $xl) {
+    .main-header {
+        display: block;
+        background-color: $firstColor;
+    
+        .first-line {
+            display: flex;
+            justify-content: space-between;
+            padding: 14px 0;
+    
+            .first-line-left {
+                display: flex;
+    
+                .phone-box {
+                    margin-right: 16px;
+                    width: 13px;
+                    height: 13px;
+    
+                    .phone-img {
+                        width: 100%;
+                    }
+                }
+    
+                .phone {
+                    padding-right: 10px;
+                    width: 95px;
+                    background-color: $firstColor;
+                    border-right: 1px solid #969696;
+                    cursor: pointer;
+                }
+    
+                .time {
+                    padding-left: 10px;
+                    padding-right: 10px;
+                }
+    
+                .time2 {
+                    padding-left: 10px;
+                    border-left: 1px solid #969696;
+                }
+            }
+    
+            .first-line-right {
+                display: flex;
+    
+                .enter-box {
+                    margin-right: 14px;
+                    width: 14px;
+                    height: 14px;
+    
+                    .enter-img {
+                        width: 100%;
+                    }
+                }
+    
+            }
+    
+        }
+    
+        .second-line-box {
+            background-color: $thirdColor;
+    
+            .second-line {
+                display: flex;
+                justify-content: space-between;
+    
+                .main-logo-box {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+        
+                    .main-logo {
+                        font: 700 36px/1 $secondFonts;
+                        text-transform: uppercase;
+                        color: $secondColor;
+                    }
+                }
+    
+                .menu {
+                    display: flex;
+                    
+                    .main-menu {
+                        display: flex;
+    
+                        .menu-item {
+                            padding: 30px 20px;
+                            cursor: pointer;
+    
+                            &:hover {
+                                background-color: #1F1F1F;
+                            }
+      
+                            .menu-link {  
+                                font: 400 14px/1 $primaryFonts;
+                                text-transform: uppercase;
+                                color: $secondColor
+                            }
+                        }
+                    }
+    
+                    .menu-baket {
+                        display: flex;
+    
+                        .baket {
+                            margin: 0 40px;
+                        }
+    
+                        .menu-baket-item {
+                            padding-top: 25px;
+                            width: 22px;
+                            height: 22px;
+                            cursor: pointer;
+    
+                            .menu-baket-img {
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (min-width: $xxl) {
+    .main-header {
+        display: block;
+        background-color: $firstColor;
+    
+        .first-line {
+            display: flex;
+            justify-content: space-between;
+            padding-top: 14px;
+            padding-bottom: 14px;
+    
+            .first-line-left {
+                display: flex;
+    
+                .phone-box {
+                    margin-right: 16px;
+                    width: 13px;
+                    height: 13px;
+    
+                    .phone-img {
+                        width: 100%;
+                    }
+                }
+    
+                .phone {
+                    padding-right: 10px;
+                    width: 95px;
+                    background-color: $firstColor;
+                    border-right: 1px solid #969696;
+                    cursor: pointer;
+                }
+    
+                .time {
+                    padding-left: 10px;
+                    padding-right: 10px;
+                }
+    
+                .time2 {
+                    padding-left: 10px;
+                    border-left: 1px solid #969696;
+                }
+            }
+    
+            .first-line-right {
+                display: flex;
+    
+                .enter-box {
+                    margin-right: 14px;
+                    width: 14px;
+                    height: 14px;
+    
+                    .enter-img {
+                        width: 100%;
+                    }
+                }
+    
+            }
+    
+        }
+    
+        .second-line-box {
+            background-color: $thirdColor;
+    
+            .second-line {
+                display: flex;
+                justify-content: space-between;
+    
+                .main-logo-box {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+        
+                    .main-logo {
+                        font: 700 36px/1 $secondFonts;
+                        text-transform: uppercase;
+                        color: $secondColor;
+                    }
+                }
+    
+                .menu {
+                    display: flex;
+                    
+                    .main-menu {
+                        display: flex;
+    
+                        .menu-item {
+                            padding: 30px 20px;
+                            cursor: pointer;
+    
+                            &:hover {
+                                background-color: #1F1F1F;
+                            }
+      
+                            .menu-link {  
+                                font: 400 14px/1 $primaryFonts;
+                                text-transform: uppercase;
+                                color: $secondColor
+                            }
+                        }
+                    }
+    
+                    .menu-baket {
+                        display: flex;
+    
+                        .baket {
+                            margin: 0 40px;
+                        }
+    
+                        .menu-baket-item {
+                            padding-top: 25px;
+                            width: 22px;
+                            height: 22px;
+                            cursor: pointer;
+    
+                            .menu-baket-img {
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

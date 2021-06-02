@@ -1,0 +1,1307 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@font-face {
+  font-family: "Post No Bills Jaffna";
+  src: url("../../fonts/Post-No-Bills-Jaffna-SemiBold.ttf.woff") format("woff"), url("../../fonts/Post-No-Bills-Jaffna-SemiBold.ttf.svg") format("svg"), url("../../fonts/Post-No-Bills-Jaffna-SemiBold.ttf.eot"), url("/fonts/") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input {
+  outline: none;
+  border: none;
+  padding: 0;
+  width: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*fonts*/
+/*color*/
+/*breakpoints*/
+.dropdown-content {
+  display: none;
+}
+.dropdown-content .menu-item {
+  width: 150px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.dropdown-content .menu-item:hover {
+  background-color: #1F1F1F;
+}
+.dropdown-content .menu-item .menu-link {
+  text-align: center;
+  font: 400 14px/1 "PT Sans", sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+}
+.dropdown-content .menu-item-box {
+  width: 150px;
+  height: 22px;
+  text-align: center;
+}
+.dropdown-content .menu-item-box img {
+  height: 100%;
+}
+
+.container {
+  display: block;
+  margin: 0 auto;
+  max-width: 1110px;
+}
+
+.info {
+  font: normal 12px "PT Sans", sans-serif;
+  color: #969696;
+}
+
+.main-title {
+  margin: 0 auto 25px;
+  text-align: center;
+  font: 700 28px/1 "Playfair Display", sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.main-hr {
+  margin: 0 auto 25px;
+  width: 120px;
+  height: 1px;
+  color: #fff;
+}
+
+.product {
+  display: block;
+  margin: 40px auto;
+}
+.product .product-img-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 25px;
+  width: 260px;
+  height: 325px;
+  background-color: #191B1C;
+  cursor: pointer;
+}
+.product .product-img-box .product-img {
+  width: 100%;
+}
+.product .product-name {
+  margin-bottom: 10px;
+  font: 400 18px/1 "Playfair Display", sans-serif;
+  color: #fff;
+  cursor: pointer;
+}
+.product .product-price {
+  font: 700 16px/1 "Playfair Display", sans-serif;
+  color: #fff;
+  cursor: pointer;
+}
+
+.main-btn {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  font: 400 14px/23px "PT Sans", sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: transparent;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+.main-btn:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.top-footer-title {
+  margin: 0 auto 15px;
+  text-align: center;
+  font: 400 24px/1 "Playfair Display", sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.top-footer-description {
+  margin: 0 auto 15px;
+  font: 400 14px/21px "PT Sans", sans-serif;
+  color: #fff;
+}
+
+@media (min-width: 576px) {
+  .container {
+    display: block;
+    margin: 0 auto;
+    max-width: 1110px;
+  }
+
+  .info {
+    font: normal 12px "PT Sans", sans-serif;
+    color: #969696;
+  }
+
+  .main-title {
+    margin: 0 auto 50px;
+    text-align: center;
+    font: 700 36px/1 "Playfair Display", sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+  }
+
+  .main-hr {
+    margin: 0 auto 50px;
+    width: 120px;
+    height: 1px;
+    color: #fff;
+  }
+
+  .product {
+    display: block;
+    margin-top: 40px;
+  }
+  .product .product-img-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 25px;
+    width: 260px;
+    height: 325px;
+    background-color: #191B1C;
+    cursor: pointer;
+  }
+  .product .product-img-box .product-img {
+    width: 100%;
+  }
+  .product .product-name {
+    margin-bottom: 10px;
+    font: 400 18px/1 "Playfair Display", sans-serif;
+    color: #fff;
+    cursor: pointer;
+  }
+  .product .product-price {
+    font: 700 16px/1 "Playfair Display", sans-serif;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .main-btn {
+    display: block;
+    margin: 0 auto;
+    padding: 12px 28px;
+    font: 400 18px/23px "PT Sans", sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #fff;
+    cursor: pointer;
+  }
+  .main-btn:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+
+  .top-footer-title {
+    text-align: left;
+    margin-bottom: 40px;
+    font: 400 24px/1 "Playfair Display", sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+  }
+
+  .top-footer-description {
+    font: 400 14px/21px "PT Sans", sans-serif;
+    color: #fff;
+  }
+}
+@media (min-width: 769px) {
+  .dropdown-content {
+    display: none;
+  }
+}
+.main-header {
+  background-color: #000;
+}
+.main-header .first-line {
+  display: none;
+  justify-content: space-between;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+.main-header .first-line .first-line-left {
+  display: flex;
+}
+.main-header .first-line .first-line-left .phone-box {
+  margin-right: 16px;
+  width: 13px;
+  height: 13px;
+}
+.main-header .first-line .first-line-left .phone-box .phone-img {
+  width: 100%;
+}
+.main-header .first-line .first-line-left .phone {
+  padding-right: 10px;
+  width: 95px;
+  background-color: #000;
+  border-right: 1px solid #969696;
+  cursor: pointer;
+}
+.main-header .first-line .first-line-left .time {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.main-header .first-line .first-line-left .time2 {
+  padding-left: 10px;
+  border-left: 1px solid #969696;
+}
+.main-header .first-line .first-line-right {
+  display: flex;
+}
+.main-header .first-line .first-line-right .enter-box {
+  margin-right: 14px;
+  width: 14px;
+  height: 14px;
+}
+.main-header .first-line .first-line-right .enter-box .enter-img {
+  width: 100%;
+}
+.main-header .second-line-box {
+  padding: 0 20px;
+  background-color: #0f0f0f;
+}
+.main-header .second-line-box .second-line {
+  display: flex;
+  justify-content: space-between;
+}
+.main-header .second-line-box .second-line .main-logo-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main-header .second-line-box .second-line .main-logo-box .main-logo {
+  font: 700 36px/1 "Post No Bills Jaffna", sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+}
+.main-header .second-line-box .second-line .gamburger-box {
+  width: 40px;
+  height: 40px;
+}
+.main-header .second-line-box .second-line .gamburger-box .gamburger {
+  width: 100%;
+  filter: invert(100%);
+}
+.main-header .second-line-box .second-line .menu {
+  display: none;
+}
+.main-header .second-line-box .second-line .menu .main-menu {
+  display: flex;
+}
+.main-header .second-line-box .second-line .menu .main-menu .menu-item {
+  padding: 30px 20px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main-header .second-line-box .second-line .menu .main-menu .menu-item:hover {
+  background-color: #1F1F1F;
+}
+.main-header .second-line-box .second-line .menu .main-menu .menu-item .menu-link {
+  font: 400 14px/1 "PT Sans", sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+}
+.main-header .second-line-box .second-line .menu .main-menu .menu-item-box {
+  width: 22px;
+  height: 22px;
+}
+.main-header .second-line-box .second-line .menu .main-menu .menu-item-box img {
+  width: 100%;
+}
+
+@media (min-width: 576px) {
+  .first-line {
+    display: none;
+    justify-content: space-between;
+    padding-top: 14px;
+    padding-bottom: 14px;
+  }
+  .first-line .first-line-left {
+    display: flex;
+  }
+  .first-line .first-line-left .phone-box {
+    margin-right: 16px;
+    width: 13px;
+    height: 13px;
+  }
+  .first-line .first-line-left .phone-box .phone-img {
+    width: 100%;
+  }
+  .first-line .first-line-left .phone {
+    padding-right: 10px;
+    width: 95px;
+    background-color: #000;
+    border-right: 1px solid #969696;
+    cursor: pointer;
+  }
+  .first-line .first-line-left .time {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .first-line .first-line-left .time2 {
+    padding-left: 10px;
+    border-left: 1px solid #969696;
+  }
+  .first-line .first-line-right {
+    display: flex;
+  }
+  .first-line .first-line-right .enter-box {
+    margin-right: 14px;
+    width: 14px;
+    height: 14px;
+  }
+  .first-line .first-line-right .enter-box .enter-img {
+    width: 100%;
+  }
+
+  .second-line-box {
+    padding: 20px;
+    background-color: #0f0f0f;
+  }
+  .second-line-box .second-line {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  .second-line-box .second-line .main-logo-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .second-line-box .second-line .main-logo-box .main-logo {
+    font: 700 36px/1 "Post No Bills Jaffna", sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  .second-line-box .second-line .gamburger-box {
+    width: 40px;
+    height: 40px;
+  }
+  .second-line-box .second-line .gamburger-box .gamburger {
+    width: 100%;
+  }
+  .second-line-box .second-line .menu {
+    display: none;
+  }
+  .second-line-box .second-line .menu .main-menu {
+    display: flex;
+  }
+  .second-line-box .second-line .menu .main-menu .menu-item {
+    padding: 30px 20px;
+    cursor: pointer;
+  }
+  .second-line-box .second-line .menu .main-menu .menu-item:hover {
+    background-color: #1F1F1F;
+  }
+  .second-line-box .second-line .menu .main-menu .menu-item .menu-link {
+    font: 400 14px/1 "PT Sans", sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  .second-line-box .second-line .menu .menu-baket {
+    display: flex;
+  }
+  .second-line-box .second-line .menu .menu-baket .baket {
+    margin: 0 40px;
+  }
+  .second-line-box .second-line .menu .menu-baket .menu-baket-item {
+    padding-top: 25px;
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+  }
+  .second-line-box .second-line .menu .menu-baket .menu-baket-item .menu-baket-img {
+    width: 100%;
+  }
+}
+@media (min-width: 769px) {
+  .main-header {
+    display: block;
+    background-color: #000;
+  }
+  .main-header .first-line {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 20px;
+  }
+  .main-header .first-line .first-line-left {
+    display: flex;
+  }
+  .main-header .first-line .first-line-left .phone-box {
+    margin-right: 16px;
+    width: 13px;
+    height: 13px;
+  }
+  .main-header .first-line .first-line-left .phone-box .phone-img {
+    width: 100%;
+  }
+  .main-header .first-line .first-line-left .phone {
+    padding-right: 10px;
+    width: 95px;
+    background-color: #000;
+    border-right: 1px solid #969696;
+    cursor: pointer;
+  }
+  .main-header .first-line .first-line-left .time {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .main-header .first-line .first-line-left .time2 {
+    padding-left: 10px;
+    border-left: 1px solid #969696;
+  }
+  .main-header .first-line .first-line-right {
+    display: flex;
+  }
+  .main-header .first-line .first-line-right .enter-box {
+    margin-right: 14px;
+    width: 14px;
+    height: 14px;
+  }
+  .main-header .first-line .first-line-right .enter-box .enter-img {
+    width: 100%;
+  }
+  .main-header .second-line-box {
+    background-color: #0f0f0f;
+  }
+  .main-header .second-line-box .second-line {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  .main-header .second-line-box .second-line .main-logo-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .main-header .second-line-box .second-line .main-logo-box .main-logo {
+    font: 700 36px/1 "Post No Bills Jaffna", sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  .main-header .second-line-box .second-line .gamburger-box {
+    display: none;
+    width: 40px;
+    height: 40px;
+  }
+  .main-header .second-line-box .second-line .gamburger-box .gamburger {
+    width: 100%;
+  }
+  .main-header .second-line-box .second-line .menu {
+    display: flex;
+  }
+  .main-header .second-line-box .second-line .menu .main-menu {
+    display: flex;
+  }
+  .main-header .second-line-box .second-line .menu .main-menu .menu-item {
+    padding: 30px 20px;
+    cursor: pointer;
+  }
+  .main-header .second-line-box .second-line .menu .main-menu .menu-item:hover {
+    background-color: #1F1F1F;
+  }
+  .main-header .second-line-box .second-line .menu .main-menu .menu-item .menu-link {
+    font: 400 14px/1 "PT Sans", sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  .main-header .second-line-box .second-line .menu .menu-baket {
+    display: flex;
+  }
+  .main-header .second-line-box .second-line .menu .menu-baket .baket {
+    margin: 0 40px;
+  }
+  .main-header .second-line-box .second-line .menu .menu-baket .menu-baket-item {
+    padding-top: 25px;
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+  }
+  .main-header .second-line-box .second-line .menu .menu-baket .menu-baket-item .menu-baket-img {
+    width: 100%;
+  }
+}
+@media (min-width: 992px) {
+  .main-header {
+    display: block;
+    background-color: #000;
+  }
+  .main-header .first-line {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 14px;
+    padding-bottom: 14px;
+  }
+  .main-header .first-line .first-line-left {
+    display: flex;
+  }
+  .main-header .first-line .first-line-left .phone-box {
+    margin-right: 16px;
+    width: 13px;
+    height: 13px;
+  }
+  .main-header .first-line .first-line-left .phone-box .phone-img {
+    width: 100%;
+  }
+  .main-header .first-line .first-line-left .phone {
+    padding-right: 10px;
+    width: 95px;
+    background-color: #000;
+    border-right: 1px solid #969696;
+    cursor: pointer;
+  }
+  .main-header .first-line .first-line-left .time {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .main-header .first-line .first-line-left .time2 {
+    padding-left: 10px;
+    border-left: 1px solid #969696;
+  }
+  .main-header .first-line .first-line-right {
+    display: flex;
+  }
+  .main-header .first-line .first-line-right .enter-box {
+    margin-right: 14px;
+    width: 14px;
+    height: 14px;
+  }
+  .main-header .first-line .first-line-right .enter-box .enter-img {
+    width: 100%;
+  }
+  .main-header .second-line-box {
+    background-color: #0f0f0f;
+  }
+  .main-header .second-line-box .second-line {
+    display: flex;
+    justify-content: space-between;
+  }
+  .main-header .second-line-box .second-line .main-logo-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .main-header .second-line-box .second-line .main-logo-box .main-logo {
+    font: 700 36px/1 "Post No Bills Jaffna", sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  .main-header .second-line-box .second-line .menu {
+    display: flex;
+  }
+  .main-header .second-line-box .second-line .menu .main-menu {
+    display: flex;
+  }
+  .main-header .second-line-box .second-line .menu .main-menu .menu-item {
+    padding: 30px 20px;
+    cursor: pointer;
+  }
+  .main-header .second-line-box .second-line .menu .main-menu .menu-item:hover {
+    background-color: #1F1F1F;
+  }
+  .main-header .second-line-box .second-line .menu .main-menu .menu-item .menu-link {
+    font: 400 14px/1 "PT Sans", sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  .main-header .second-line-box .second-line .menu .menu-baket {
+    display: flex;
+  }
+  .main-header .second-line-box .second-line .menu .menu-baket .baket {
+    margin: 0 40px;
+  }
+  .main-header .second-line-box .second-line .menu .menu-baket .menu-baket-item {
+    padding-top: 25px;
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+  }
+  .main-header .second-line-box .second-line .menu .menu-baket .menu-baket-item .menu-baket-img {
+    width: 100%;
+  }
+}
+@media (min-width: 1200px) {
+  .main-header {
+    display: block;
+    background-color: #000;
+  }
+  .main-header .first-line {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 0;
+  }
+  .main-header .first-line .first-line-left {
+    display: flex;
+  }
+  .main-header .first-line .first-line-left .phone-box {
+    margin-right: 16px;
+    width: 13px;
+    height: 13px;
+  }
+  .main-header .first-line .first-line-left .phone-box .phone-img {
+    width: 100%;
+  }
+  .main-header .first-line .first-line-left .phone {
+    padding-right: 10px;
+    width: 95px;
+    background-color: #000;
+    border-right: 1px solid #969696;
+    cursor: pointer;
+  }
+  .main-header .first-line .first-line-left .time {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .main-header .first-line .first-line-left .time2 {
+    padding-left: 10px;
+    border-left: 1px solid #969696;
+  }
+  .main-header .first-line .first-line-right {
+    display: flex;
+  }
+  .main-header .first-line .first-line-right .enter-box {
+    margin-right: 14px;
+    width: 14px;
+    height: 14px;
+  }
+  .main-header .first-line .first-line-right .enter-box .enter-img {
+    width: 100%;
+  }
+  .main-header .second-line-box {
+    background-color: #0f0f0f;
+  }
+  .main-header .second-line-box .second-line {
+    display: flex;
+    justify-content: space-between;
+  }
+  .main-header .second-line-box .second-line .main-logo-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .main-header .second-line-box .second-line .main-logo-box .main-logo {
+    font: 700 36px/1 "Post No Bills Jaffna", sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  .main-header .second-line-box .second-line .menu {
+    display: flex;
+  }
+  .main-header .second-line-box .second-line .menu .main-menu {
+    display: flex;
+  }
+  .main-header .second-line-box .second-line .menu .main-menu .menu-item {
+    padding: 30px 20px;
+    cursor: pointer;
+  }
+  .main-header .second-line-box .second-line .menu .main-menu .menu-item:hover {
+    background-color: #1F1F1F;
+  }
+  .main-header .second-line-box .second-line .menu .main-menu .menu-item .menu-link {
+    font: 400 14px/1 "PT Sans", sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  .main-header .second-line-box .second-line .menu .menu-baket {
+    display: flex;
+  }
+  .main-header .second-line-box .second-line .menu .menu-baket .baket {
+    margin: 0 40px;
+  }
+  .main-header .second-line-box .second-line .menu .menu-baket .menu-baket-item {
+    padding-top: 25px;
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+  }
+  .main-header .second-line-box .second-line .menu .menu-baket .menu-baket-item .menu-baket-img {
+    width: 100%;
+  }
+}
+@media (min-width: 1400px) {
+  .main-header {
+    display: block;
+    background-color: #000;
+  }
+  .main-header .first-line {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 14px;
+    padding-bottom: 14px;
+  }
+  .main-header .first-line .first-line-left {
+    display: flex;
+  }
+  .main-header .first-line .first-line-left .phone-box {
+    margin-right: 16px;
+    width: 13px;
+    height: 13px;
+  }
+  .main-header .first-line .first-line-left .phone-box .phone-img {
+    width: 100%;
+  }
+  .main-header .first-line .first-line-left .phone {
+    padding-right: 10px;
+    width: 95px;
+    background-color: #000;
+    border-right: 1px solid #969696;
+    cursor: pointer;
+  }
+  .main-header .first-line .first-line-left .time {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .main-header .first-line .first-line-left .time2 {
+    padding-left: 10px;
+    border-left: 1px solid #969696;
+  }
+  .main-header .first-line .first-line-right {
+    display: flex;
+  }
+  .main-header .first-line .first-line-right .enter-box {
+    margin-right: 14px;
+    width: 14px;
+    height: 14px;
+  }
+  .main-header .first-line .first-line-right .enter-box .enter-img {
+    width: 100%;
+  }
+  .main-header .second-line-box {
+    background-color: #0f0f0f;
+  }
+  .main-header .second-line-box .second-line {
+    display: flex;
+    justify-content: space-between;
+  }
+  .main-header .second-line-box .second-line .main-logo-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .main-header .second-line-box .second-line .main-logo-box .main-logo {
+    font: 700 36px/1 "Post No Bills Jaffna", sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  .main-header .second-line-box .second-line .menu {
+    display: flex;
+  }
+  .main-header .second-line-box .second-line .menu .main-menu {
+    display: flex;
+  }
+  .main-header .second-line-box .second-line .menu .main-menu .menu-item {
+    padding: 30px 20px;
+    cursor: pointer;
+  }
+  .main-header .second-line-box .second-line .menu .main-menu .menu-item:hover {
+    background-color: #1F1F1F;
+  }
+  .main-header .second-line-box .second-line .menu .main-menu .menu-item .menu-link {
+    font: 400 14px/1 "PT Sans", sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  .main-header .second-line-box .second-line .menu .menu-baket {
+    display: flex;
+  }
+  .main-header .second-line-box .second-line .menu .menu-baket .baket {
+    margin: 0 40px;
+  }
+  .main-header .second-line-box .second-line .menu .menu-baket .menu-baket-item {
+    padding-top: 25px;
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+  }
+  .main-header .second-line-box .second-line .menu .menu-baket .menu-baket-item .menu-baket-img {
+    width: 100%;
+  }
+}
+.welcome-section {
+  background-position-x: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("/img/welcome-bg.png");
+}
+.welcome-section .welcome-box {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: transparent;
+}
+.welcome-section .welcome-box .welcome-logo {
+  margin: 0 auto 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 280px;
+  height: 280px;
+  border: 4px solid #fff;
+}
+.welcome-section .welcome-box .welcome-logo .welcome-name {
+  margin: 0 auto 7px;
+  width: min-content;
+  font: normal 64px/1 "Post No Bills Jaffna", sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  border-bottom: 2px solid #fff;
+}
+.welcome-section .welcome-box .welcome-logo .welcome-logo-description {
+  text-align: center;
+  font: 400 22px/1 "PT Sans", sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+}
+.welcome-section .welcome-box .weclome-description {
+  margin: 0 auto;
+  width: 90%;
+  text-align: center;
+  font: 400 12px/20px "PT Sans", sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+@media (min-width: 576px) {
+  .welcome-section .welcome-box {
+    padding-top: 160px;
+    padding-bottom: 160px;
+  }
+  .welcome-section .welcome-box .welcome-logo {
+    margin: 0 auto 80px;
+    width: 320px;
+    height: 320px;
+  }
+  .welcome-section .welcome-box .weclome-description {
+    font: 400 16px/24px "PT Sans", sans-serif;
+  }
+}
+@media (min-width: 769px) {
+  .welcome-section .welcome-box .weclome-description {
+    width: 730px;
+  }
+}
+.new {
+  background-color: #000;
+}
+.new .new-top .new-top-left {
+  padding: 93px 0;
+}
+.new .new-top .new-top-left .product-box .product {
+  margin: 0 10px;
+}
+.new .new-top .new-top-right {
+  padding: 200px 0 100px;
+  width: 100vw;
+  background-image: url(/img/img1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.new .new-bottom {
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+.new .new-bottom .juts-img-box {
+  width: 100vw;
+  height: 600px;
+  background-image: url(/img/img2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.new .new-bottom .new-bottom-right {
+  padding: 40px 0;
+  margin: 0 auto;
+  width: 470px;
+}
+.new .new-bottom .new-bottom-right .some-description {
+  margin-bottom: 40px;
+  text-align: center;
+  font: 400 14px/21px "PT Sans", sans-serif;
+  color: #fff;
+}
+
+@media (min-width: 803px) {
+  .new {
+    background-color: #000;
+  }
+  .new .new-top .new-top-left {
+    padding: 93px 0;
+  }
+  .new .new-top .new-top-left .product-box {
+    display: flex;
+    justify-content: space-around;
+  }
+  .new .new-top .new-top-right {
+    padding: 484px 0 100px;
+    width: 100vw;
+    background-image: url(/img/img1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .new .new-bottom {
+    display: flex;
+    flex-wrap: wrap-reverse;
+  }
+  .new .new-bottom .juts-img-box {
+    width: 100vw;
+    height: 600px;
+    background-image: url(/img/img2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .new .new-bottom .new-bottom-right {
+    padding: 80px 0;
+    margin: 0 auto;
+    width: 700px;
+  }
+  .new .new-bottom .new-bottom-right .some-description {
+    margin-bottom: 40px;
+    text-align: center;
+    font: 400 14px/21px "PT Sans", sans-serif;
+    color: #fff;
+  }
+}
+@media (min-width: 1400px) {
+  .new {
+    background-color: #000;
+  }
+  .new .new-top {
+    display: flex;
+    justify-content: space-between;
+  }
+  .new .new-top .new-top-left {
+    width: 1040px;
+    padding: 93px 0;
+  }
+  .new .new-top .new-top-right {
+    width: 880px;
+  }
+  .new .new-bottom {
+    display: flex;
+    flex-wrap: wrap-reverse;
+  }
+  .new .new-bottom .juts-img-box {
+    width: 880px;
+    height: 600px;
+    background-image: url(/img/img2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .new .new-bottom .new-bottom-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    width: 470px;
+  }
+  .new .new-bottom .new-bottom-right .some-description {
+    margin-bottom: 40px;
+    text-align: center;
+    font: 400 14px/21px "PT Sans", sans-serif;
+    color: #fff;
+  }
+}
+.new-goods {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #000;
+}
+.new-goods .new-goods-box .new-goods-product-box {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.new-goods .new-goods-box .new-goods-product-box .product {
+  margin: 0 10px;
+}
+
+@media (min-width: 576px) {
+  .new-goods {
+    padding-top: 120px;
+    padding-bottom: 150px;
+  }
+}
+@media (min-width: 1200px) {
+  .new-goods {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #000;
+  }
+  .new-goods .new-goods-box .new-goods-product-box {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .new-goods .new-goods-box .new-goods-product-box .product {
+    margin: 0;
+  }
+}
+.our-brand {
+  padding-top: 60px;
+  padding-bottom: 80px;
+  background-color: #0f0f0f;
+}
+.our-brand .our-brand-box .brand-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.our-brand .our-brand-box .brand-box .brand-item {
+  margin: 0 10px;
+  width: 255px;
+  height: 94px;
+  cursor: pointer;
+}
+.our-brand .our-brand-box .brand-box .brand-item .brand-img {
+  width: 100%;
+}
+
+.main-footer .top-footer-box {
+  padding: 40px 5%;
+  background-size: cover;
+  background-position-x: center;
+  background-repeat: no-repeat;
+  background-image: url(../../img/footer.png);
+}
+.main-footer .top-footer-box .top-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.main-footer .top-footer-box .top-footer .top-footer1 {
+  margin: 0 auto 20px;
+  width: 350px;
+}
+.main-footer .top-footer-box .top-footer .top-footer2 {
+  margin: 0 auto 20px;
+  width: 290px;
+}
+.main-footer .top-footer-box .top-footer .top-footer2 .tag-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.main-footer .top-footer-box .top-footer .top-footer2 .tag-cloud .tag {
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  text-align: center;
+  font: 400 14px/1 "PT Sans", sans-serif;
+  color: #D0D0D0;
+  background-color: #0f0f0f;
+  cursor: pointer;
+}
+.main-footer .top-footer-box .top-footer .top-footer2 .tag-cloud .tag:hover {
+  background-color: #1F1F1F;
+}
+.main-footer .top-footer-box .top-footer .top-footer3 {
+  margin: 0 auto 20px;
+  width: 350px;
+}
+.main-footer .top-footer-box .top-footer .top-footer3 .form {
+  display: flex;
+  margin-top: 40px;
+  width: 320;
+}
+.main-footer .top-footer-box .top-footer .top-footer3 .form .email {
+  padding: 10px 20px;
+  width: 200px;
+  background: rgba(255, 255, 255, 0.4);
+}
+.main-footer .top-footer-box .top-footer .top-footer3 .form .email::-webkit-input-placeholder {
+  color: darkgrey;
+}
+.main-footer .top-footer-box .top-footer .top-footer3 .form .email::-moz-placeholder {
+  color: darkgrey;
+}
+.main-footer .top-footer-box .top-footer .top-footer3 .form .email:-moz-placeholder {
+  color: darkgrey;
+}
+.main-footer .top-footer-box .top-footer .top-footer3 .form .email:-ms-input-placeholder {
+  color: darkgrey;
+}
+.main-footer .top-footer-box .top-footer .top-footer3 .form .form-btn {
+  padding: 10px 10px;
+  width: 120px;
+  letter-spacing: 5%;
+  color: #fff;
+  font: 400 14px/21px "PT Sans", sans-serif;
+  background: #0f0f0f;
+  cursor: pointer;
+}
+.main-footer .top-footer-box .top-footer .top-footer3 .form .form-btn:hover {
+  background-color: #1F1F1F;
+}
+.main-footer .bottom-footer-box {
+  padding: 17px 20px;
+  background-color: #000;
+}
+.main-footer .bottom-footer-box .bottom-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.main-footer .bottom-footer-box .bottom-footer .bottom-footer-left {
+  font: 400 12px/1 "PT Sans", sans-serif;
+  color: #fff;
+}
+.main-footer .bottom-footer-box .bottom-footer .bottom-footer-right {
+  font: 700 12px/1 "PT Sans", sans-serif;
+  color: #fff;
+}
+
+@media (min-width: 1150px) {
+  .main-footer .top-footer-box {
+    padding-top: 80px;
+    padding-bottom: 100px;
+    background-size: cover;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-image: url(../../img/footer.png);
+  }
+  .main-footer .top-footer-box .top-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .main-footer .top-footer-box .top-footer .top-footer1 {
+    width: 350px;
+  }
+  .main-footer .top-footer-box .top-footer .top-footer2 {
+    width: 290px;
+  }
+  .main-footer .top-footer-box .top-footer .top-footer2 .tag-cloud {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .main-footer .top-footer-box .top-footer .top-footer2 .tag-cloud .tag {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    text-align: center;
+    font: 400 14px/1 "PT Sans", sans-serif;
+    color: #D0D0D0;
+    background-color: #0f0f0f;
+    cursor: pointer;
+  }
+  .main-footer .top-footer-box .top-footer .top-footer3 {
+    width: 350px;
+  }
+  .main-footer .top-footer-box .top-footer .top-footer3 .form {
+    display: flex;
+    margin-top: 40px;
+    width: 350;
+  }
+  .main-footer .top-footer-box .top-footer .top-footer3 .form .email {
+    padding: 10px 20px;
+    width: 210px;
+    background: rgba(255, 255, 255, 0.4);
+  }
+  .main-footer .top-footer-box .top-footer .top-footer3 .form .email::-webkit-input-placeholder {
+    color: darkgrey;
+  }
+  .main-footer .top-footer-box .top-footer .top-footer3 .form .email::-moz-placeholder {
+    color: darkgrey;
+  }
+  .main-footer .top-footer-box .top-footer .top-footer3 .form .email:-moz-placeholder {
+    color: darkgrey;
+  }
+  .main-footer .top-footer-box .top-footer .top-footer3 .form .email:-ms-input-placeholder {
+    color: darkgrey;
+  }
+  .main-footer .top-footer-box .top-footer .top-footer3 .form .form-btn {
+    padding: 10px 20px;
+    width: 140px;
+    letter-spacing: 5%;
+    color: #fff;
+    font: 400 14px/21px "PT Sans", sans-serif;
+    background: #0f0f0f;
+    cursor: pointer;
+  }
+  .main-footer .bottom-footer-box {
+    padding-top: 17px;
+    padding-bottom: 17px;
+    background-color: #000;
+  }
+  .main-footer .bottom-footer-box .bottom-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .main-footer .bottom-footer-box .bottom-footer .bottom-footer-left {
+    font: 400 12px/1 "PT Sans", sans-serif;
+    color: #fff;
+  }
+  .main-footer .bottom-footer-box .bottom-footer .bottom-footer-right {
+    font: 700 12px/1 "PT Sans", sans-serif;
+    color: #fff;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
